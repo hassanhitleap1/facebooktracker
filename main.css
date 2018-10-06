@@ -1,0 +1,72 @@
+body{
+	background-color: #d8dfea;
+}
+.logo{
+	    font-size: 29px;
+       color: white !important;
+    margin: -11px;
+    font-weight: bold;
+}
+nav{
+	    background-color: #3b5998;
+
+}
+
+.card-box{
+	    margin-top: 18px;	
+	        width: 37%;
+}
+.btn-login{
+	font-weight: bold;
+color: white;
+background-color: #3578e5;
+}
+.btn-new-account{
+	background-color: #00a400;
+	color: white;
+	font-weight: bold;
+	    width: 40%;
+	        padding: 7px;
+}
+
+.list-group-item{
+	    color: #7596c8;
+    font-size: 12px;
+    line-height: 16px;
+    background-color: #d8dfea;
+}
+.box-footer{
+
+}
+.footer{
+	background-color: white;
+	    padding: 13px;
+	        height: -webkit-fill-available;
+	        text-align: center;
+}
+.li-footer-active{
+	color:#90949c;
+}
+.li-footer{
+	    font-weight: bold;
+	        font-size: 12px;
+    line-height: 16px;
+    color: #576b95
+}
+.fa-plus{
+	border: 1px solid #3b5998;
+    padding: 2px;
+    color: gray;
+
+}
+.copyright{
+	background-color: white;
+	text-align: center;
+	color: gray;
+	font-weight: bold;
+	font-size: 12px;
+    line-height: 16px;
+}
+.li-item{
+	display: block;
+}
