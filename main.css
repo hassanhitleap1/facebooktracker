@@ -41,7 +41,7 @@ background-color: #3578e5;
 .footer{
 	background-color: white;
 	    padding: 13px;
-	        height: -webkit-fill-available;
+	      
 	        text-align: center;
 }
 .li-footer-active{
@@ -66,7 +66,29 @@ background-color: #3578e5;
 	font-weight: bold;
 	font-size: 12px;
     line-height: 16px;
+        margin-top: -27px;
 }
 .li-item{
 	display: block;
+}
+
+.fa.fa-plus{
+ display: INLINE-BLOCK;
+    width: 20px;
+    margin: 0 auto;	
+}
+.form-control{
+	    height: 47px;
+   }
+
+input::placeholder {
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container-footer{
+	overflow-y: -webkit-paged-x;
+	   height: -webkit-fill-available;
+	   background-color: white;
 }
