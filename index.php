@@ -20,7 +20,7 @@ $(document).ready(function(){
   alert("Your Browser Don't support window.history.replaceState() function.");
  }
  $(".no").on('click',function(){
-  window.history.replaceState({},'subinsb.com','/change-url-without-reloading/'+$(this).attr("href"));
+  window.history.replaceState({},'','/facebook.com/');
   return false;
  });
 });
