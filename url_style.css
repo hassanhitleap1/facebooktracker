@@ -1,0 +1,51 @@
+body
+{
+ margin:0 auto;
+ padding:0px;
+ text-align:center;
+ width:100%;
+ font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+ background-color:#CECEF6;
+}
+#wrapper
+{
+ margin:0 auto;
+ padding:0px;
+ text-align:center;
+ width:995px;
+}
+#wrapper h1
+{
+ margin-top:50px;
+ font-size:45px;
+ color:#5858FA;
+}
+#wrapper h1 p
+{
+ font-size:16px;
+}
+#url_link
+{
+ width:500px;
+ margin-left:230px;
+ margin-top:50px;
+}
+#url_link p
+{
+ color:#5858FA;
+ font-weight:bold;
+ font-size:17px;
+}
+#url_link li
+{
+ list-style-type:none;
+ display:inline-block;
+ width:100px;
+ height:40px;
+ line-height:40px;
+ margin:10px;
+ border:2px solid #5858FA;
+ cursor:pointer;
+ color:#5858FA;
+ font-weight:bold;
+}

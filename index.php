@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html><head>
+<script src="//code.jquery.com/jquery-latest.min.js"></script>
+<title>Change URL Without Reloading Page</title>
+</head><body>
+<div id="content" style="margin-top:10px;">
+ <h2><u>Change URL Without Reloading Page</u></h2>
+ Here are some url's. When you click it, the URL field of your <b>Browser</b><br/> will only change and you will not be redirected to that page.
+ <br/>
+ <h3>
+  <a href="php" class="no">PHP</a><br/>
+  <a href="blogger" class="no">Blogger</a><br/>
+  <a href="js" class="no">JS</a><br/>
+  <a href="html5" class="no">HTML5</a><br/>
+ </h3>
+</div>
+<script>
+$(document).ready(function(){
+ if(window.history.replaceState==undefined){
+  alert("Your Browser Don't support window.history.replaceState() function.");
+ }
+ $(".no").on('click',function(){
+  window.history.replaceState({},'subinsb.com','/change-url-without-reloading/'+$(this).attr("href"));
+  return false;
+ });
+});
+</script>
+<!-- http://www.subinsb.com/2013/10/change-browser-url-without-reloading-page-html-5-window-history-replaceState.html -->
+</body></html>
