@@ -3,9 +3,15 @@ body{
 }
 .logo{
 	    font-size: 29px;
-       color: white !important;
+    color: white !important;
     margin: -11px;
     font-weight: bold;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    left: 0;
 }
 nav{
 	    background-color: #3b5998;
@@ -92,3 +98,24 @@ input::placeholder {
 	   height: -webkit-fill-available;
 	   background-color: white;
 }
+
+@media  (max-width: 992px) { 
+	.card-box {
+   
+    width: 86%;
+}
+
+@media  (min-width:768px) and (max-width: 991px )  { 
+	.card-box {
+    	width: 66%;
+	}
+
+ }
+
+ @media  (max-width: 767px ) {
+ 		.logo{
+		position: absolute ;
+	}
+ }
+
+
