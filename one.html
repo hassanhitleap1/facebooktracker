@@ -12,6 +12,7 @@
   <a href="blogger" class="no">Blogger</a><br/>
   <a href="js" class="no">JS</a><br/>
   <a href="html5" class="no">HTML5</a><br/>
+  <button class="->renderSections()['content']"> click</button>
  </h3>
 </div>
 <script>
@@ -22,6 +23,9 @@ $(document).ready(function(){
  $(".no").on('click',function(){
   window.history.replaceState({},'subinsb.com','/change-url-without-reloading/'+$(this).attr("href"));
   return false;
+ });
+ $('.btn').click(function(){
+ 	alert('sss')
  });
 });
 </script>
