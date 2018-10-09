@@ -118,4 +118,24 @@ input::placeholder {
 	}
  }
 
+@media (max-width: 575px){
+	.hr{
+		width: 41.666667% !important;
+		}
 
+	.hr-or{
+		width: 8.333333%  !important;
+	}
+}
+
+@media (max-width: 399px){
+	.btn-new-account{
+		    width: 55%;
+	}
+}
+
+@media (max-width: 575px){
+	.copyright{
+		    margin-top: 5px;
+	}
+}
