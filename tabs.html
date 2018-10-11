@@ -1,0 +1,37 @@
+<<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+    <button onclick="fun1()">fun1</button>
+
+    <script>
+        var win;
+        win=window.open("file:///C:/xampp/htdocs/facebooktracker/pupups.html", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400"); 
+        // function fun1(){
+        //   win=window.open("file:///C:/xampp/htdocs/facebooktracker/pupups.html", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400"); 
+        windows =window.open("file:///C:/xampp/htdocs/facebooktracker/pupups.html", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400"); 
+        windows.onload = function()
+        {
+                alert("Popup has loaded a page");
+        };
+        // }
+        // win.addEventListener("load", myFunction);
+        // function myFunction() {
+        //     document.getElementById("text").value = "My value";
+        // }
+        win.onload = function()
+            {
+        var t=setTimeout("mywindow()",1000); 
+        // call other functions which you want to be called when window loads   
+        }
+ 
+
+    </script>
+</body>
+</html>
