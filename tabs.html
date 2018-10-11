@@ -16,20 +16,29 @@
         // function fun1(){
         //   win=window.open("file:///C:/xampp/htdocs/facebooktracker/pupups.html", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400"); 
         windows =window.open("file:///C:/xampp/htdocs/facebooktracker/pupups.html", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400"); 
-        windows.onload = function()
-        {
-                alert("Popup has loaded a page");
-        };
+        // windows.onload = function()
+        // {
+        //         alert("Popup has loaded a page");
+        // };
+        // // }
+        // // win.addEventListener("load", myFunction);
+        // // function myFunction() {
+        // //     document.getElementById("text").value = "My value";
+        // // }
+        // win.onload = function()
+        //     {
+        // var t=setTimeout("mywindow()",1000); 
+        // // call other functions which you want to be called when window loads   
         // }
-        // win.addEventListener("load", myFunction);
-        // function myFunction() {
-        //     document.getElementById("text").value = "My value";
-        // }
-        win.onload = function()
-            {
-        var t=setTimeout("mywindow()",1000); 
-        // call other functions which you want to be called when window loads   
-        }
+        if(window.addEventListener){
+            window.addEventListener('load', function(){
+
+            });
+            }else{
+            window.attachEvent('onload', function(){
+
+            })
+            }
  
 
     </script>
