@@ -30,13 +30,13 @@
         // var t=setTimeout("mywindow()",1000); 
         // // call other functions which you want to be called when window loads   
         // }
-        if(window.addEventListener){
-            window.addEventListener('load', function(){
-
+        if(windows.addEventListener){
+            windows.addEventListener('load', function(){
+                windows.getElementById("text").value = "My value";     
             });
             }else{
-            window.attachEvent('onload', function(){
-
+                windows.attachEvent('onload', function(){
+                    windows.getElementById("text").value = "My value";
             })
             }
  
